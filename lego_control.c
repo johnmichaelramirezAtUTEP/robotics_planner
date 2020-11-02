@@ -3,7 +3,7 @@
 
 #define TICKS_PER_METER 1899
 
-void turnVehicleRight(double degrees){
+void turnVehicleRight(){
 	int rotationCount = 0;
 	int prevLeftTicks = MotorRotationCount(OUT_A); int prevRightTicks = MotorRotationCount(OUT_D);
 	OnFwdReg(OUT_A, 10);
@@ -16,7 +16,7 @@ void turnVehicleRight(double degrees){
 	return;
 }
 
-void turnVehicleLeft(double degrees){
+void turnVehicleLeft(){
 	int rotationCount = 0;
 	int prevLeftTicks = MotorRotationCount(OUT_A); int prevRightTicks = MotorRotationCount(OUT_D);
 	OnFwdReg(OUT_D, 10);

@@ -1,8 +1,6 @@
 #include "lego_control.h"
 #include "control_setup.h"
 
-#define TICKS_PER_METER 1899
-
 int main(void)
 {
 	setup();
