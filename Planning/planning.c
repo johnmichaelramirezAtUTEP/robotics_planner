@@ -59,13 +59,14 @@ void initBoard() {
   add_obstacles();
 }
 
-int visited[HEIGHT][WIDTH];
+int visited[HEIGHT][WIDTH] = {0};
 
 double distance(int x1, int x2, int y1, int y2){
   return (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2);
   //return abs(x1-x2)+abs(y1-y2);
 }
 
+//dfs code
 typedef struct direction{
   double dist;
   int x,y;
@@ -90,10 +91,7 @@ void dfs(int x, int y){
   if(found){
     return;
   }
-  //printf("exploring x:%d y:%d\n", x, y);
-  //printBoard();
   if(Board[y][x] == 'G'){
-    //printf("found x:%d y:%d\n", x, y);
     found = 1;
     return;
   }
@@ -111,12 +109,11 @@ void dfs(int x, int y){
   
   direction dists[4] = {{dl, x-1, y},{dr, x+1, y},{du, x, y+1},{dd, x, y-1}};
   sort(dists);
-  //printf("\n\n\ndists:%f %f %f %f\n", dists[0].dist, dists[1].dist, dists[2].dist, dists[3].dist);
 
   for(int i=0 ; i<4; i++){
       int xx = dists[i].x;
       int yy = dists[i].y;
-    if(xx>=0 && xx<16 && yy>=0 && yy<=10 && Board[xx][yy]!='B')
+    if(xx>=0 && xx<16 && yy>=0 && yy<10 && Board[yy][xx]!='B')
       dfs(dists[i].x, dists[i].y);
   }
 
@@ -125,11 +122,75 @@ void dfs(int x, int y){
   }
 }
 
+// bfs code
+typedef struct node{
+	int x,y;
+	struct node *parent, *next;
+} node;
+
+void init_node(node *self, int x, int y, node *parent, node *next){
+	self->x = x;
+	self->y = y;
+	self->parent = parent;
+	self->next = next;
+}
+
+node * bfs(){
+	//queue
+	node *head = malloc(sizeof(node));
+	init_node(head, Sx, Sy, NULL, NULL);
+	node *tail = head;
+	//add start to queue
+	//while queue not empty
+	while(head != NULL){
+		node *current = head;
+		//printf("current: %p, x:%d, y:%d\n", current, current->x, current->y);
+
+		//if at goal, backtrace
+		if(current->x == Gx && current->y == Gy){
+			printf("found goal\n");
+			return current;
+		}
+
+		//add all legal locations to end of queue
+		int x = current->x, y = current->y;
+		int directions [4][2] = {{x-1, y},{x+1, y},{x, y+1},{x, y-1}};
+		for(int i=0; i<4; i++){
+			int xx = directions[i][0];
+			int yy = directions[i][1];
+			if(xx>=0 && xx<16 && yy>=0 && yy<10 && Board[yy][xx]!='B' && !visited[xx][yy]){
+				if(xx==6 && yy==4){
+					printf("adding blocked %c\n", Board[yy][xx]);
+				}
+				visited[xx][yy] = 1;
+				node *to_add = malloc(sizeof(node));
+				init_node(to_add, xx, yy, current, NULL);
+				tail->next = to_add;
+				tail = tail->next;
+			}
+		}
+
+		//increment queue pointer
+		head = head->next;
+	}
+	return NULL;
+}
+
+void print_trace(node *goal){
+	while(goal != NULL){
+		printf("%d, %d\n", goal->x, goal->y);
+		Board[goal->y][goal->x] = '*';
+		goal = goal->parent;
+	}
+}
+
 int main () {
   initBoard();
   add_obstacles();
 	printBoard();
-	dfs(Sx, Sy);
+	//dfs(Sx, Sy);
+	node *backtrace = bfs();
+	print_trace(backtrace);
 	printBoard();
 	return 0;	
 }
