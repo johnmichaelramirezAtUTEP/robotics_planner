@@ -10,15 +10,12 @@
 #define MHEIGHT 3.05
 #define SQUARE .305
 
-//J:0-15:width
-//I:0-9:height
-
 int Board[HEIGHT][WIDTH];
 int Gx, Gy;
+int Sx, Sy;
 
 void printBoard () {
 	int i, j;
-	printf(" 01234567890123456\n");
 	for (i = HEIGHT-1; i >= 0; i--) {
 		printf("%d",i);
 		for(j = 0; j < WIDTH; j++) {
@@ -26,50 +23,47 @@ void printBoard () {
 		}
 		printf("%c",'\n');
 	}
+	printf(" 01234567890123456\n");
 }
 
-void initBoard() {
-	int i, j;
-	for (i = 0; i < HEIGHT; i++) {
-		for(j = 0; j < WIDTH; j++) {
-			Board[i][j] =  '-';
-		}
-	}
-}
-
-void TranslateCoordinates(double x, double y) {
+void add_obstacle(double x, double y) {
   if (x != -1 && y != -1) {
     int height = (int) ((y / SQUARE) + .5);
     int width = (int) ((x / SQUARE) + .5);
     //printf("x: %f, y: %f, width: %d, height: %d\n",x,y,width,height);
     Board[height][width] = 'B';
   }
-  
-  int startx = ((start[0] / SQUARE) + .5);
-  int starty = ((start[1] / SQUARE) + .5);
-  
-  int goalx = ((goal[0] / SQUARE) + .5);
-  int goaly = ((goal[1] / SQUARE) + .5);
-  
-  Board[starty][startx] = 'S';
-  Board[goaly][goalx] = 'G';
-  Gx = goalx;
-  Gy = goaly;
 }
 
-void ReadCooordinates() {
-  int i, j;
-  
-  for (i = 0; i < MAX_OBSTACLES; i++)
-      TranslateCoordinates(obstacle[i][0],obstacle[i][1]);
-    
+void add_obstacles() {
+  for (int i = 0; i < MAX_OBSTACLES; i++)
+      add_obstacle(obstacle[i][0],obstacle[i][1]);
 }
 
-int visited[10][16];
+void initBoard() {
+	for (int i = 0; i < HEIGHT; i++) {
+		for(int j = 0; j < WIDTH; j++) {
+			Board[i][j] =  '-';
+		}
+	}
+
+  Sx = ((start[0] / SQUARE) + .5);
+  Sy = ((start[1] / SQUARE) + .5);
+
+  Gx = ((goal[0] / SQUARE) + .5);
+  Gy = ((goal[1] / SQUARE) + .5);
+
+  Board[Sy][Sx] = 'S';
+  Board[Gy][Gx] = 'G';
+
+  add_obstacles();
+}
+
+int visited[HEIGHT][WIDTH];
 
 double distance(int x1, int x2, int y1, int y2){
-  //return pow(x1-x2, 2) - pow(y1-y2, 2);
-  return abs(x1-x2)+abs(y1-y2);
+  return (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2);
+  //return abs(x1-x2)+abs(y1-y2);
 }
 
 typedef struct direction{
@@ -132,14 +126,10 @@ void dfs(int x, int y){
 }
 
 int main () {
-
-  
-	initBoard();
-  ReadCooordinates();
+  initBoard();
+  add_obstacles();
 	printBoard();
-  int startx = ((start[0] / SQUARE) + .5);
-  int starty = ((start[1] / SQUARE) + .5);
-	dfs(startx, starty);
+	dfs(Sx, Sy);
 	printBoard();
-return 0;	
+	return 0;	
 }
