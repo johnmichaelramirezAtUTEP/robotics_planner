@@ -3,7 +3,6 @@
 #include "parameters.h"
 #include <stdlib.h>
 
-
 #define WIDTH 16
 #define HEIGHT 10
 #define MWIDTH 4.88
@@ -176,11 +175,133 @@ node * bfs(){
 	return NULL;
 }
 
+typedef struct instruction{
+	char inst;
+	double value;
+} instruction;
+
+void i_inst(instruction *inst, char c, double value){
+	inst->inst = c;
+	inst->value = value;
+}
+
+double moves_b[90][2];
+double moves[90][2];
+int num_moves;
+instruction instr[180] = {'x',-1.0};
+
 void print_trace(node *goal){
+	//{0, 1.3} {1, 90.0}
+
+	int i=0;
 	while(goal != NULL){
 		printf("%d, %d\n", goal->x, goal->y);
+		moves_b[i][0] = goal->x;
+		moves_b[i][1] = goal->y;
 		Board[goal->y][goal->x] = '*';
 		goal = goal->parent;
+		i++;
+	}
+	num_moves = i-1;
+
+	for(int j = i-1; j>=0; j--){
+		moves[i-1-j][0] = moves_b[j][0];
+		moves[i-1-j][1] = moves_b[j][1];
+	}
+
+	for(int j=0; j<i; j++){
+		printf("%f %f\n", moves[j][0], moves[j][1]);
+	}
+}
+
+void create_instructions(){
+	int ox = 1, oy = 0;
+	int ip = 0;
+	
+	for(int i=0; i<num_moves; i++){
+		int dx = moves[i+1][0] - moves[i][0];
+		int dy = moves[i+1][1] - moves[i][1];
+		
+		if(ox==0 && oy==1){
+			if(dx==0 && dy==1){
+			}
+			else if(dx==0 && dy==-1){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+			else if(dx==1 && dy==0){
+				i_inst(instr+ip, 'r', -90);
+				ip ++;
+			}
+			else if(dx==-1 && dy==0){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+		}
+		else if(ox==0 && oy==-1){
+			if(dx==0 && dy==1){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+			else if(dx==0 && dy==-1){
+			}
+			else if(dx==1 && dy==0){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+			else if(dx==-1 && dy==0){
+				i_inst(instr+ip, 'r', -90);
+				ip ++;
+			}
+		}
+		else if(ox==1 && oy==0){
+			if(dx==0 && dy==1){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+			else if(dx==0 && dy==-1){
+				i_inst(instr+ip, 'r', -90);
+				ip ++;
+			}
+			else if(dx==1 && dy==0){
+			}
+			else if(dx==-1 && dy==0){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+		}
+		else if(ox==-1 && oy==0){
+			if(dx==0 && dy==1){
+				i_inst(instr+ip, 'r', -90);
+				ip ++;
+			}
+			else if(dx==0 && dy==-1){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+			else if(dx==1 && dy==0){
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+				i_inst(instr+ip, 'r', 90);
+				ip ++;
+			}
+			else if(dx==-1 && dy==0){
+			}
+		}
+		ox = dx;
+		oy = dy;
+		
+		i_inst(instr+ip, 'f', SQUARE);
+		ip++;
+	}
+	for(int i=0; i<ip; i++){
+		printf("inst: %c %f\n", instr[i].inst, instr[i].value);
 	}
 }
 
@@ -192,5 +313,6 @@ int main () {
 	node *backtrace = bfs();
 	print_trace(backtrace);
 	printBoard();
+	create_instructions();
 	return 0;	
 }
