@@ -1,8 +1,7 @@
 #ifndef PARMS
 #define PARMS
+
 #define S .305
-
-
 #define MAX_OBSTACLES 25 /* maximum number of obstacles */
 
 //int num_obstacles = 13; /* number of obstacles */
