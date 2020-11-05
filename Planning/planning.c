@@ -1,6 +1,10 @@
 #include <ev3.h>
 #include <math.h>
 #include <stdlib.h>
+//Testing only
+#include <unistd.h>
+#include <stdio.h>
+//
 #include "parameters.h"
 #include "planning.h"
 
@@ -10,37 +14,21 @@
 #define MHEIGHT 3.05
 #define SQUARE .305
 
-int Board[HEIGHT][WIDTH];
+int Board[WIDTH][HEIGHT];
 int Gx, Gy;
 int Sx, Sy;
 
-struct direction {
-  double dist;
-  int x,y;
-};
-
-struct node {
-	int x,y;
-	struct node *parent, *next;
-};
-
-struct instruction {
-	char inst;
-	double value;
-};
-
-int visited[HEIGHT][WIDTH];
+int visited[WIDTH][HEIGHT];
 int found;
 
 double moves_b[90][2];
 double moves[90][2];
 int num_moves;
-Instruction instr[180];
+
 
 void setupVariables(){
 	memset(visited, 0, sizeof(visited[0][0]) * HEIGHT * WIDTH);
 	found = 0;
-	instr[0].inst = 'x';instr[0].value = -1.0;
 }
 
 void printBoard () {
@@ -121,13 +109,12 @@ Node * bfs(){
 	Node *tail = head;
 	//add start to queue
 	//while queue not empty
-	while(head){
+	while(head != NULL){
 		Node *current = head;
 
 		//if at goal, backtrace
 		if(current->x == Gx && current->y == Gy){
-			TermPrintf("found goal\n");
-			TermPrintf("current: %p, x:%d, y:%d\n", current, current->x, current->y);
+			TermPrintf("Goal found -> x:%d, y:%d\n", current->x, current->y);
 			ButtonWaitForPress(BUTTON_ID_ENTER);
 			return current;
 		}
@@ -138,10 +125,10 @@ Node * bfs(){
 		for(i=0; i<4; i++){
 			int xx = directions[i][0];
 			int yy = directions[i][1];
-			if(xx>=0 && xx<16 && yy>=0 && yy<10 && Board[yy][xx]!='B' && !visited[xx][yy]){
-				if(xx==6 && yy==4){
-					TermPrintf("adding blocked %c\n", Board[yy][xx]);
-				}
+			if(xx>=0 && xx<16 && yy>=0 && yy<10 && Board[yy][xx]!='B' && visited[xx][yy] == 0){
+//				if(xx==6 && yy==4){
+//					TermPrintf("adding blocked %c\n", Board[yy][xx]);
+//				}
 				visited[xx][yy] = 1;
 				Node *to_add = malloc(sizeof(Node));
 				initNode(to_add, xx, yy, current, NULL);
@@ -164,7 +151,7 @@ void setInstruction(Instruction *inst, char c, double value){
 void printTrace(Node *goal){
 	int i=0;
 	while(goal != NULL){
-		TermPrintf("%d, %d\n", goal->x, goal->y);
+//		TermPrintf("%d, %d\n", goal->x, goal->y);
 		moves_b[i][0] = goal->x;
 		moves_b[i][1] = goal->y;
 		Board[goal->y][goal->x] = '*';
@@ -179,13 +166,14 @@ void printTrace(Node *goal){
 		moves[i-1-j][1] = moves_b[j][1];
 	}
 
-	for(j=0; j<i; j++){
-		TermPrintf("%f %f\n", moves[j][0], moves[j][1]);
-	}
-	ButtonWaitForPress(BUTTON_ID_ENTER);
+//	for(j=0; j<i; j++){
+//		TermPrintf("%f %f\n", moves[j][0], moves[j][1]);
+//	}
 }
 
-void createInstructions(){
+Instruction * createInstructions(){
+	Instruction * instr = malloc(sizeof(Instruction) * 180);
+	instr[0].inst = 'x';instr[0].value = -1.0;
 	int ox = 1, oy = 0, i;
 	int ip = 0;
 	
@@ -271,18 +259,27 @@ void createInstructions(){
 		setInstruction(instr+ip, 'f', SQUARE);
 		ip++;
 	}
-	for(i=0; i<ip; i++){
-		TermPrintf("inst: %c %f\n", instr[i].inst, instr[i].value);
-	}
+	setInstruction(instr+0, 'x', ip);
+//	for(i=0; i<ip; i++){
+//		TermPrintf("inst: %c %f\n", instr[i].inst, instr[i].value);
+//	}
+	return instr;
 }
 
-//int main () {
-//	initBoard();
-//	addObstacles();
-//	printBoard();
-//	Node *backtrace = bfs();
-//	printTrace(backtrace);
-//	printBoard();
-//	createInstructions();
-//	return 0;
-//}
+void testNode(){
+	Node *to_add = malloc(sizeof(Node));
+	initNode(to_add, 0, 0, NULL, NULL);
+	TermPrintf("testNode: %i, %i\n", to_add->x, to_add->y);
+	ButtonWaitForPress(BUTTON_ID_ENTER);
+}
+
+void printVisited(){
+	int i,j;
+	for (i = WIDTH-1; i >= 0; i--) {
+		for(j = 0; j < HEIGHT; j++) {
+			TermPrintf("%i",visited[i][j]);
+		}
+		TermPrintf("\n");
+	}
+	ButtonWaitForPress(BUTTON_ID_ENTER);
+}

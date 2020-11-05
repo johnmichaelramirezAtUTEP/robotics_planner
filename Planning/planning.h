@@ -1,6 +1,21 @@
 #ifndef PLANNING_H_
 #define PLANNING_H_
 
+struct direction {
+  double dist;
+  int x,y;
+};
+
+struct node {
+	int x,y;
+	struct node *parent, *next;
+};
+
+struct instruction {
+	char inst;
+	double value;
+};
+
 typedef struct node Node;
 typedef struct direction Direction;
 typedef struct instruction Instruction;
@@ -17,6 +32,11 @@ void initNode(Node *, int, int, Node *, Node *);
 Node * bfs(void);
 void setInstruction(Instruction *, char, double);
 void printTrace(Node *);
-void createInstructions(void);
+Instruction * createInstructions(void);
+
+//Test functions
+void testNode(void);
+void printVisited(void);
+int printWD(void);
 
 #endif

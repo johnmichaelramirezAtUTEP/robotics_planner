@@ -1,7 +1,12 @@
 #include <math.h>
 #include <ev3.h>
+#include "control_setup.h"
 
 #define TICKS_PER_METER 1899
+
+void setUpControl(){
+	setup();
+}
 
 void turnVehicleRight(){
 	int rotationCount = 0;
