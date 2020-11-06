@@ -9,27 +9,17 @@ void setUpControl(){
 }
 
 void turnVehicleRight(){
-	int rotationCount = 0;
-	int prevLeftTicks = MotorRotationCount(OUT_A); int prevRightTicks = MotorRotationCount(OUT_D);
 	OnFwdReg(OUT_A, 10);
 	OnRevReg(OUT_D, 10);
-	while(rotationCount < 304){
-		//left wheel rotates first so it will be ahead by 2-4 ticks, add 2 ticks to compensate
-		rotationCount = abs(MotorRotationCount(OUT_A) - prevLeftTicks) + abs((MotorRotationCount(OUT_D) - prevRightTicks)) + 2;
-	}
+	Wait(1600);
 	OutputStop(OUT_AD, true);
 	return;
 }
 
 void turnVehicleLeft(){
-	int rotationCount = 0;
-	int prevLeftTicks = MotorRotationCount(OUT_A); int prevRightTicks = MotorRotationCount(OUT_D);
 	OnFwdReg(OUT_D, 10);
 	OnRevReg(OUT_A, 10);
-	while(rotationCount < 304){
-		//right wheel rotates first so it will be ahead by 2-4 ticks, add 2 ticks to compensate
-		rotationCount = abs(MotorRotationCount(OUT_D) - prevRightTicks) + abs((MotorRotationCount(OUT_A) - prevLeftTicks)) + 2;
-	}
+	Wait(1600);
 	OutputStop(OUT_AD, true);
 	return;
 }

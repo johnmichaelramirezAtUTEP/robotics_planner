@@ -259,7 +259,7 @@ Instruction * createInstructions(){
 		setInstruction(instr+ip, 'f', SQUARE);
 		ip++;
 	}
-	setInstruction(instr+0, 'x', ip);
+//	setInstruction(instr+0, 'x', ip);
 //	for(i=0; i<ip; i++){
 //		TermPrintf("inst: %c %f\n", instr[i].inst, instr[i].value);
 //	}

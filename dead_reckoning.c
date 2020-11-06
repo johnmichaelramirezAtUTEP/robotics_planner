@@ -10,29 +10,23 @@ int main(void){
 	printTrace(backtrace);
 	Instruction * instr = createInstructions();
 
-	int size = (int) instr[0].value;
-
 	setUpControl();
 
-	int i = 0;;
-	for(;i < size; i++){
-//		if(instr[i].inst == 'r'){
-//			if(instr[i].value > 0){ //turn right
-//				turnVehicleRight();
-//			}
-//			else {//turn left
-//				turnVehicleLeft();
-//			}
-//		}
-//		else if(instr[i].inst == 'f'){
-//			goForward(instr[i].value);
-//		}
-		if(i % 5 == 0){
-			ButtonWaitForPress(BUTTON_ID_ENTER);
+	int i = 0;
+	while(instr[i].inst == 'f' || instr[i].inst == 'r'){
+		if(instr[i].inst == 'r'){
+			if(instr[i].value > 0){ //turn right
+				turnVehicleRight();
+			}
+			else {//turn left
+				turnVehicleLeft();
+			}
 		}
-		TermPrintf("Inst: %c\n", instr[i].inst);
+		else if(instr[i].inst == 'f'){
+			goForward(instr[i].value);
+		}
+		i++;
 	}
-	ButtonWaitForPress(BUTTON_ID_ENTER);
 
 	return 0;
 }
