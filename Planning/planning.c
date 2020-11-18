@@ -9,7 +9,7 @@
 #include "planning.h"
 
 #define WIDTH 16
-#define HEIGHT 10
+#define HEIGHT 12
 #define MWIDTH 4.88
 #define MHEIGHT 3.05
 #define SQUARE .305

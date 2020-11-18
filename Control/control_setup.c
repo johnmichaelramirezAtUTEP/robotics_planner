@@ -8,6 +8,7 @@ void setup(){
 	}
 	else {
 		TermPrintf("Unable to initialize output.\n");
+		exit(0);
 	}
 
 	//setup tachometers in motors
@@ -16,6 +17,7 @@ void setup(){
 	}
 	else {
 		TermPrintf("Unable to set device type.\n\n");
+		exit(0);
 	}
 
 	//reset ticks
