@@ -1,0 +1,1455 @@
+Archive member included because of file (symbol)
+
+C:/ev3/API\libev3api.a(ev3_button.o)
+                              ./src/Planning/planning.o (ButtonWaitForPress)
+C:/ev3/API\libev3api.a(ev3_output.o)
+                              ./src/Control/control_setup.o (OutputInitialized)
+C:/ev3/API\libev3api.a(ev3.o)
+                              ./src/Sensors/sensors.o (FreeEV3)
+C:/ev3/API\libev3api.a(ev3_sensor.o)
+                              ./src/Sensors/sensors.o (SensorsInitialized)
+C:/ev3/API\libev3api.a(ev3_lcd.o)
+                              C:/ev3/API\libev3api.a(ev3.o) (LcdClean)
+C:/ev3/API\libev3api.a(ev3_timer.o)
+                              C:/ev3/API\libev3api.a(ev3_lcd.o) (SetTimerCallback)
+C:/ev3/API\libev3api.a(ev3_command.o)
+                              ./src/Control/lego_control.o (Wait)
+C:/ev3/API\libev3api.a(ev3_sound.o)
+                              C:/ev3/API\libev3api.a(ev3.o) (SoundInit)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+                              C:/ev3/API\libev3api.a(ev3_timer.o) (__aeabi_uidiv)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+                              C:/ev3/API\libev3api.a(ev3_output.o) (__aeabi_idiv)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_lshrdi3.o)
+                              C:/ev3/API\libev3api.a(ev3_sensor.o) (__aeabi_llsr)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_addsubdf3.o)
+                              ./src/Planning/planning.o (__aeabi_dsub)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivdf3.o)
+                              ./src/Control/lego_control.o (__aeabi_dmul)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_cmpdf2.o)
+                              ./src/Planning/planning.o (__aeabi_dcmpeq)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_fixdfsi.o)
+                              ./src/Planning/planning.o (__aeabi_d2iz)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivsf3.o)
+                              C:/ev3/API\libev3api.a(ev3_button.o) (__aeabi_fmul)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o)
+                              C:/ev3/API\libev3api.a(ev3_timer.o) (__aeabi_uldivmod)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_dvmd_lnx.o)
+                              c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+                              c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+                              c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o) (__divdi3)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+                              c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o) (__udivdi3)
+c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+                              c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o) (__clz_tab)
+c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+                              c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o (__libc_csu_fini)
+c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+                              C:/ev3/API\libev3api.a(ev3_sound.o) (stat)
+
+Allocating common symbols
+Common symbol       size              file
+
+num_moves           0x4               ./src/Planning/planning.o
+ir_sensor_channel   0x10              C:/ev3/API\libev3api.a(ev3_sensor.o)
+LCDInstance         0xb98             C:/ev3/API\libev3api.a(ev3_lcd.o)
+hwBuffer            0x1e00            C:/ev3/API\libev3api.a(ev3_lcd.o)
+Gx                  0x4               ./src/Planning/planning.o
+OutputInstance      0x48              C:/ev3/API\libev3api.a(ev3_output.o)
+found               0x4               ./src/Planning/planning.o
+Sx                  0x4               ./src/Planning/planning.o
+Gy                  0x4               ./src/Planning/planning.o
+moves_b             0x5a0             ./src/Planning/planning.o
+Board               0x300             ./src/Planning/planning.o
+HwVers              0x6               C:/ev3/API\libev3api.a(ev3_button.o)
+Sy                  0x4               ./src/Planning/planning.o
+ButtonLedInstance   0x18              C:/ev3/API\libev3api.a(ev3_button.o)
+SoundInstance       0x208             C:/ev3/API\libev3api.a(ev3_sound.o)
+sensor_setup_NAME   0x10              C:/ev3/API\libev3api.a(ev3_sensor.o)
+moves               0x5a0             ./src/Planning/planning.o
+visited             0x300             ./src/Planning/planning.o
+
+Discarded input sections
+
+ .note.ABI-tag  0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .rodata.cst4   0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .text          0x00000000        0x0 ./src/Sensors/sensors.o
+ .data          0x00000000        0x0 ./src/Sensors/sensors.o
+ .bss           0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_abbrev  0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_info    0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_line    0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Sensors/sensors.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/Sensors/sensors.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_frame   0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_loc     0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_aranges
+                0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_ranges  0x00000000        0x0 ./src/Sensors/sensors.o
+ .debug_str     0x00000000        0x0 ./src/Sensors/sensors.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Sensors/sensors.o
+ .text          0x00000000        0x0 ./src/Planning/parameters.o
+ .data          0x00000000        0x0 ./src/Planning/parameters.o
+ .bss           0x00000000        0x0 ./src/Planning/parameters.o
+ .debug_abbrev  0x00000000        0x0 ./src/Planning/parameters.o
+ .debug_info    0x00000000        0x0 ./src/Planning/parameters.o
+ .debug_line    0x00000000        0x0 ./src/Planning/parameters.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Planning/parameters.o
+ .data.num_obstacles
+                0x00000000        0x0 ./src/Planning/parameters.o
+ .data.obstacle
+                0x00000000        0x0 ./src/Planning/parameters.o
+ .data.start    0x00000000        0x0 ./src/Planning/parameters.o
+ .data.goal     0x00000000        0x0 ./src/Planning/parameters.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Planning/parameters.o
+ .debug_str     0x00000000        0x0 ./src/Planning/parameters.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Planning/parameters.o
+ .text          0x00000000        0x0 ./src/Planning/planning.o
+ .data          0x00000000        0x0 ./src/Planning/planning.o
+ .bss           0x00000000        0x0 ./src/Planning/planning.o
+ .debug_abbrev  0x00000000        0x0 ./src/Planning/planning.o
+ .debug_info    0x00000000        0x0 ./src/Planning/planning.o
+ .debug_line    0x00000000        0x0 ./src/Planning/planning.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Planning/planning.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/Planning/planning.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/Planning/planning.o
+ .data.num_obstacles
+                0x00000000        0x0 ./src/Planning/planning.o
+ .data.obstacle
+                0x00000000        0x0 ./src/Planning/planning.o
+ .data.start    0x00000000        0x0 ./src/Planning/planning.o
+ .data.goal     0x00000000        0x0 ./src/Planning/planning.o
+ .text.setupVariables
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.setupVariables
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.setupVariables
+                0x00000000        0x0 ./src/Planning/planning.o
+ .rodata        0x00000000        0x0 ./src/Planning/planning.o
+ .text.printBoard
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.printBoard
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.printBoard
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.addObstacle
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.addObstacle
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.addObstacle
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.addObstacles
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.addObstacles
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.addObstacles
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.initBoard
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.initBoard
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.initBoard
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.distance
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.distance
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.distance
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.sort     0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.sort
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.sort
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.initNode
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.initNode
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.initNode
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.bfs      0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.bfs
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.bfs
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.setInstruction
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.setInstruction
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.setInstruction
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.printTrace
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.printTrace
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.printTrace
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.createInstructions
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.createInstructions
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.createInstructions
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.testNode
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.testNode
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.testNode
+                0x00000000        0x0 ./src/Planning/planning.o
+ .text.printVisited
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.extab.text.printVisited
+                0x00000000        0x0 ./src/Planning/planning.o
+ .ARM.exidx.text.printVisited
+                0x00000000        0x0 ./src/Planning/planning.o
+ .debug_frame   0x00000000        0x0 ./src/Planning/planning.o
+ .debug_loc     0x00000000        0x0 ./src/Planning/planning.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Planning/planning.o
+ .debug_aranges
+                0x00000000        0x0 ./src/Planning/planning.o
+ .debug_ranges  0x00000000        0x0 ./src/Planning/planning.o
+ .debug_str     0x00000000        0x0 ./src/Planning/planning.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Planning/planning.o
+ COMMON         0x00000000        0x0 ./src/Planning/planning.o
+ .text          0x00000000        0x0 ./src/Control/control_setup.o
+ .data          0x00000000        0x0 ./src/Control/control_setup.o
+ .bss           0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_abbrev  0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_info    0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_line    0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .rodata        0x00000000        0x0 ./src/Control/control_setup.o
+ .text.setup    0x00000000        0x0 ./src/Control/control_setup.o
+ .ARM.extab.text.setup
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .ARM.exidx.text.setup
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_frame   0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_loc     0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_aranges
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_ranges  0x00000000        0x0 ./src/Control/control_setup.o
+ .debug_str     0x00000000        0x0 ./src/Control/control_setup.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Control/control_setup.o
+ .text          0x00000000        0x0 ./src/Control/goalfinding.o
+ .data          0x00000000        0x0 ./src/Control/goalfinding.o
+ .bss           0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_abbrev  0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_info    0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_line    0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Control/goalfinding.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/Control/goalfinding.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_frame   0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_loc     0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_aranges
+                0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_ranges  0x00000000        0x0 ./src/Control/goalfinding.o
+ .debug_str     0x00000000        0x0 ./src/Control/goalfinding.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Control/goalfinding.o
+ .text          0x00000000        0x0 ./src/Control/lego_control.o
+ .data          0x00000000        0x0 ./src/Control/lego_control.o
+ .bss           0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_abbrev  0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_info    0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_line    0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .text.setUpControl
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.extab.text.setUpControl
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.exidx.text.setUpControl
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .text.turnVehicleRight
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.extab.text.turnVehicleRight
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.exidx.text.turnVehicleRight
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .text.turnVehicleLeft
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.extab.text.turnVehicleLeft
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.exidx.text.turnVehicleLeft
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .text.goReverse
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.extab.text.goReverse
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .ARM.exidx.text.goReverse
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_frame   0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_loc     0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_aranges
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_ranges  0x00000000        0x0 ./src/Control/lego_control.o
+ .debug_str     0x00000000        0x0 ./src/Control/lego_control.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Control/lego_control.o
+ .text          0x00000000        0x0 ./src/Control/wander.o
+ .data          0x00000000        0x0 ./src/Control/wander.o
+ .bss           0x00000000        0x0 ./src/Control/wander.o
+ .debug_abbrev  0x00000000        0x0 ./src/Control/wander.o
+ .debug_info    0x00000000        0x0 ./src/Control/wander.o
+ .debug_line    0x00000000        0x0 ./src/Control/wander.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/Control/wander.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/Control/wander.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/Control/wander.o
+ .debug_frame   0x00000000        0x0 ./src/Control/wander.o
+ .debug_loc     0x00000000        0x0 ./src/Control/wander.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/Control/wander.o
+ .debug_aranges
+                0x00000000        0x0 ./src/Control/wander.o
+ .debug_ranges  0x00000000        0x0 ./src/Control/wander.o
+ .debug_str     0x00000000        0x0 ./src/Control/wander.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/Control/wander.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .debug_abbrev  0x00000000        0x0 ./src/main.o
+ .debug_info    0x00000000        0x0 ./src/main.o
+ .debug_line    0x00000000        0x0 ./src/main.o
+ .debug_macinfo
+                0x00000000        0x0 ./src/main.o
+ .data.__reference_InitEV3
+                0x00000000        0x0 ./src/main.o
+ .data.__reference_FreeEV3
+                0x00000000        0x0 ./src/main.o
+ .debug_frame   0x00000000        0x0 ./src/main.o
+ .debug_loc     0x00000000        0x0 ./src/main.o
+ .debug_pubnames
+                0x00000000        0x0 ./src/main.o
+ .debug_aranges
+                0x00000000        0x0 ./src/main.o
+ .debug_ranges  0x00000000        0x0 ./src/main.o
+ .debug_str     0x00000000        0x0 ./src/main.o
+ .note.GNU-stack
+                0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_button.o)
+ .bss           0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_button.o)
+ .ARM.extab     0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_button.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_button.o)
+ .data          0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_output.o)
+ .bss           0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_output.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_output.o)
+ .data          0x00000000        0x0 C:/ev3/API\libev3api.a(ev3.o)
+ .ARM.extab     0x00000000        0x0 C:/ev3/API\libev3api.a(ev3.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3.o)
+ .data          0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_sensor.o)
+ .ARM.extab     0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_sensor.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_sensor.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_lcd.o)
+ .ARM.extab     0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_timer.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_timer.o)
+ .data          0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_command.o)
+ .bss           0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_command.o)
+ .ARM.extab     0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_command.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_command.o)
+ .data          0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_sound.o)
+ .bss           0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_sound.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/ev3/API\libev3api.a(ev3_sound.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_addsubdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_cmpdf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_fixdfsi.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_dvmd_lnx.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+ .debug_frame   0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+ .data          0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.extab     0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_frame   0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .data          0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+ .bss           0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+ .ARM.extab     0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+ .debug_frame   0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+ .note.GNU-stack
+                0x00000000        0x0 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+ .text          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+ .ARM.extab.init
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+ .ARM.extab.fini
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+LOAD ./src/Sensors/sensors.o
+LOAD ./src/Planning/parameters.o
+LOAD ./src/Planning/planning.o
+LOAD ./src/Control/control_setup.o
+LOAD ./src/Control/goalfinding.o
+LOAD ./src/Control/lego_control.o
+LOAD ./src/Control/wander.o
+LOAD ./src/main.o
+LOAD C:/ev3/API\libev3api.a
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libm.so
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/lib/libgcc_s.so
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc.so
+START GROUP
+LOAD c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/lib/libc.so.6
+LOAD c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a
+LOAD c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/lib/ld-linux.so.3
+END GROUP
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/lib/libgcc_s.so
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+LOAD c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+                0x00008000                PROVIDE (__executable_start, 0x8000)
+                0x00008114                . = (0x8000 + SIZEOF_HEADERS)
+
+.interp         0x00008114       0x13
+ *(.interp)
+ .interp        0x00008114       0x13 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00008128      0x154
+ *(.hash)
+ .hash          0x00008128      0x154 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000827c      0x2e0
+ *(.dynsym)
+ .dynsym        0x0000827c      0x2e0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.dynstr         0x0000855c      0x1a6
+ *(.dynstr)
+ .dynstr        0x0000855c      0x1a6 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.gnu.version    0x00008702       0x5c
+ *(.gnu.version)
+ .gnu.version   0x00008702       0x5c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.gnu.version_d  0x00008760        0x0 load address 0x0000875e
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.gnu.version_r  0x00008760       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00008760       0x40 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.rel.dyn        0x000087a0        0x8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000087a0        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.rel.ifunc.dyn
+ *(.rel.ifunc.*)
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rela.ifunc.dyn
+ *(.rela.ifunc.*)
+
+.rel.plt        0x000087a8      0x138
+ *(.rel.plt)
+ .rel.plt       0x000087a8      0x138 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x000088e0       0x10
+ *(.init)
+ .init          0x000088e0        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+                0x000088e0                _init
+ .init          0x000088e8        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+
+.plt            0x000088f0      0x1e8
+ *(.plt)
+ .plt           0x000088f0      0x1e8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+                0x00008904                open@@GLIBC_2.4
+                0x00008910                mmap@@GLIBC_2.4
+                0x0000891c                abort@@GLIBC_2.4
+                0x00008928                __xstat@@GLIBC_2.4
+                0x00008934                __libc_start_main@@GLIBC_2.4
+                0x0000894c                vsnprintf@@GLIBC_2.4
+                0x00008958                vsprintf@@GLIBC_2.4
+                0x00008964                fclose@@GLIBC_2.4
+                0x00008970                dirname@@GLIBC_2.4
+                0x0000897c                fopen@@GLIBC_2.4
+                0x00008988                memset@@GLIBC_2.4
+                0x00008994                strrchr@@GLIBC_2.4
+                0x000089a0                setitimer@@GLIBC_2.4
+                0x000089ac                usleep@@GLIBC_2.4
+                0x000089b8                read@@GLIBC_2.4
+                0x000089c4                write@@GLIBC_2.4
+                0x000089d0                gettimeofday@@GLIBC_2.4
+                0x000089dc                ioctl@@GLIBC_2.4
+                0x000089e8                strlen@@GLIBC_2.4
+                0x000089f4                sscanf@@GLIBC_2.4
+                0x00008a00                __xpg_basename@@GLIBC_2.4
+                0x00008a0c                strcpy@@GLIBC_2.4
+                0x00008a18                strncat@@GLIBC_2.4
+                0x00008a24                raise@@GLIBC_2.4
+                0x00008a30                strstr@@GLIBC_2.4
+                0x00008a3c                close@@GLIBC_2.4
+                0x00008a48                fwrite@@GLIBC_2.4
+                0x00008a54                fprintf@@GLIBC_2.4
+                0x00008a60                strdup@@GLIBC_2.4
+                0x00008a6c                malloc@@GLIBC_2.4
+                0x00008a78                sigaction@@GLIBC_2.4
+                0x00008a84                fputc@@GLIBC_2.4
+                0x00008a90                strcat@@GLIBC_2.4
+                0x00008a9c                memmove@@GLIBC_2.4
+                0x00008aa8                puts@@GLIBC_2.4
+                0x00008ab4                munmap@@GLIBC_2.4
+                0x00008ac0                nanosleep@@GLIBC_2.4
+                0x00008acc                fputs@@GLIBC_2.4
+
+.text           0x00008ad8     0x89d0
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00008ad8       0x38 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+                0x00008ad8                _start
+ .text          0x00008b10       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .text          0x00008b3c       0x50 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .text.setUpSensors
+                0x00008b8c       0x58 ./src/Sensors/sensors.o
+                0x00008b8c                setUpSensors
+ .text.readColorSensor
+                0x00008be4       0x24 ./src/Sensors/sensors.o
+                0x00008be4                readColorSensor
+ .text.readUltraSonicSensor
+                0x00008c08       0x24 ./src/Sensors/sensors.o
+                0x00008c08                readUltraSonicSensor
+ .text.goalfinding
+                0x00008c2c       0x68 ./src/Control/goalfinding.o
+                0x00008c2c                goalfinding
+ .text.turnVehicledeg
+                0x00008c94       0xe0 ./src/Control/lego_control.o
+                0x00008c94                turnVehicledeg
+ *fill*         0x00008d74        0x4 00000000
+ .text.goForward
+                0x00008d78       0x90 ./src/Control/lego_control.o
+                0x00008d78                goForward
+ .text.wander   0x00008e08       0x88 ./src/Control/wander.o
+                0x00008e08                wander
+ .text.main     0x00008e90       0x88 ./src/main.o
+                0x00008e90                main
+ .text          0x00008f18      0x604 C:/ev3/API\libev3api.a(ev3_button.o)
+                0x00009180                ButtonWaitForPress
+                0x0000901c                readButtons
+                0x000090a0                buttonClear
+                0x000090f4                ButtonWaitForAnyPress
+                0x00009034                ButtonIsUp
+                0x00009388                SetLedPattern
+                0x00008fb4                LedWarning
+                0x00009430                ButtonLedExit
+                0x00008f18                checkButtons
+                0x000092f8                WriteToButtonLedDevice
+                0x00009450                ButtonLedInit
+                0x000094e4                SetLedWarning
+                0x0000909c                ButtonPressedEx
+                0x00008f7c                MappedPattern
+                0x00008ff4                getButtons
+                0x00009294                HardwareVersion
+                0x000093bc                ButtonLedCloseDevices
+                0x00009234                ButtonWaitForPressAndRelease
+                0x000090bc                ButtonLedClose
+                0x00009338                UpdateLed
+                0x0000907c                ReadButtonEx
+                0x00009258                HardwareVersionString
+                0x00009050                ButtonIsDown
+                0x00008f54                ButtonLedInitialized
+                0x00009064                ButtonState
+                0x0000919c                ButtonWaitForAnyEvent
+                0x00008fd0                LedPattern
+                0x000090d8                ButtonLedOpen
+ .text          0x0000951c     0x1430 C:/ev3/API\libev3api.a(ev3_output.o)
+                0x0000a628                OnForEx
+                0x000096b4                OutputGetActualSpeed
+                0x000099c0                ResetRotationCount
+                0x0000a610                OffEx
+                0x000096f0                MotorBlockTachoCount
+                0x000099c4                OutputTimeSyncEx
+                0x0000a29c                SetSpeed
+                0x00009d78                RotateMotorRampNoWait
+                0x0000980c                OutputTest
+                0x00009590                OutputInitialized
+                0x0000a2a0                OutputReset
+                0x0000a540                OutputStop
+                0x00009de4                RotateMotorNoWaitEx
+                0x00009920                OutputClearCount
+                0x00009ca8                OutputStepSpeedEx
+                0x0000a700                OnFwdEx
+                0x00009fac                OutputStepPowerEx
+                0x0000a07c                OutputPolarity
+                0x000095b8                OutputRead
+                0x000098e0                WriteToPWMDevice
+                0x0000a120                OutputStartEx
+                0x00009da0                RotateMotorRamp
+                0x000096d4                MotorTachoCount
+                0x0000a884                OutputInit
+                0x00009e98                RotateMotorEx
+                0x0000a794                ResetOutputs
+                0x00009728                MotorActualSpeed
+                0x0000a0e8                SetDirection
+                0x0000a7bc                OutputExit
+                0x0000a61c                OnEx
+                0x0000a604                FloatEx
+                0x0000a22c                SetPower
+                0x00009760                OutputState
+                0x0000951c                OutputToMotorNum
+                0x0000a3bc                OutputSetTypes
+                0x0000a31c                ResetTachoCount
+                0x0000a844                OutputOpen
+                0x0000a118                Toggle
+                0x00009ae4                OutputStepSyncEx
+                0x00009690                OutputGetTachoCount
+                0x0000a1c0                OutputPower
+                0x0000a66c                OnRevEx
+                0x0000a5ac                SetOutputEx
+                0x0000a304                ResetAllTachoCounts
+                0x00009bd8                OutputTimeSpeedEx
+                0x0000a110                Fwd
+                0x0000a82c                OutputClose
+                0x0000970c                MotorPower
+                0x00009744                MotorRotationCount
+                0x00009edc                OutputTimePowerEx
+                0x0000a324                ResetBlockTachoCount
+                0x0000a3ac                OnRevSyncEx
+                0x000098c4                MotorBusy
+                0x0000a328                ResetCount
+                0x0000966c                OutputGetCount
+                0x0000a47c                OutputSetTypesArray
+                0x00009ab8                OnForSyncEx
+                0x0000a320                ResetBlockAndTachoCount
+                0x0000a50c                OutputProgramStop
+                0x0000a230                OutputSpeed
+                0x0000a494                OutputSetType
+                0x0000a108                Rev
+                0x0000a738                OnFwdRegEx
+                0x0000a6a4                OnRevRegEx
+                0x0000a370                OnFwdSyncEx
+                0x00009574                DecodeOutputs
+ .text          0x0000a94c       0x80 C:/ev3/API\libev3api.a(ev3.o)
+                0x0000a95c                FreeEV3
+                0x0000a98c                InitEV3
+                0x0000a94c                EV3IsInitialized
+ .text          0x0000a9cc      0x8e0 C:/ev3/API\libev3api.a(ev3_sensor.o)
+                0x0000ae2c                SetSensorMode
+                0x0000ae34                SetIRBeaconCH
+                0x0000ab64                ReadSensor
+                0x0000aa68                readIicSensor
+                0x0000a9cc                SensorsInitialized
+                0x0000aad4                readNxtColor
+                0x0000aadc                ReadSensorData
+                0x0000aa28                readUartSensor
+                0x0000ae48                SensorsExit
+                0x0000aac0                readOldDumbSensor
+                0x0000aaa8                readNewDumbSensor
+                0x0000aecc                SensorsInit
+                0x0000b008                SetAllSensorMode
+ .text          0x0000b2ac     0x2f98 C:/ev3/API\libev3api.a(ev3_lcd.o)
+                0x0000e018                LcdUpdate
+                0x0000b5ec                dLcdDrawPixel
+                0x0000ca20                CmdDrawLine
+                0x0000c59c                vasprintf
+                0x0000b700                dLcdDrawChar
+                0x0000dc70                LcdScroll
+                0x0000c2b8                DisplayLineX
+                0x0000b2c4                dLcdGetFontHeight
+                0x0000b48c                lcdToFrameBuffer
+                0x0000c91c                DisplayDraw
+                0x0000bf2c                LcdText
+                0x0000d5ec                CmdDrawCircle
+                0x0000c0b0                DisplayClrPixel
+                0x0000bf1c                reverse_bits
+                0x0000c5f4                LcdPrintf
+                0x0000bc50                dLcdDrawBitmap
+                0x0000b5c4                LcdInitialized
+                0x0000bf00                LcdGetDisplay
+                0x0000bec8                LcdSelectFont
+                0x0000d7d8                Ev3Clear
+                0x0000cff8                CmdDrawEllipse
+                0x0000df6c                TermPrintln
+                0x0000b324                dLcdGetNumIcons
+                0x0000b2dc                dLcdGetIconBits
+                0x0000cd80                CmdDrawRect
+                0x0000e144                LcdInit
+                0x0000c05c                DisplaySetPixel
+                0x0000bac8                dLcdDrawPicture
+                0x0000c834                LcdTextf
+                0x0000c038                DisplayLineHeight
+                0x0000d68c                LcdFillWindow
+                0x0000cd10                LineOutEx
+                0x0000c880                asprintf
+                0x0000d7e8                LcdBmpFile
+                0x0000e044                LcdSplash
+                0x0000c544                LcdSetCursorX
+                0x0000c7c0                Ev3Printf
+                0x0000d570                EllipseOutEx
+                0x0000dd38                TermPrintf
+                0x0000c440                DisplayFrame
+                0x0000bc2c                dLcdGetBitmapSize
+                0x0000e000                LcdRefresh
+                0x0000bfe8                LcdPicture
+                0x0000e0a8                LcdUpdateHandler
+                0x0000dbb8                LcdWriteDisplayToFile
+                0x0000b2ac                dLcdGetFontWidth
+                0x0000c564                LcdGetCursorX
+                0x0000beb8                LcdSetAutoRefresh
+                0x0000c8a8                DisplayErase
+                0x0000c158                DisplayFillScreen
+                0x0000b30c                dLcdGetIconHeight
+                0x0000d87c                _lcdWriteBytesToFile
+                0x0000bf84                LcdIcon
+                0x0000e204                WriteToLcdDevice
+                0x0000ba48                dLcdDrawText
+                0x0000c554                LcdSetCursorY
+                0x0000dc34                LcdWriteFrameBufferToFile
+                0x0000cee0                RectOutEx
+                0x0000d788                LcdClean
+                0x0000c38c                DisplayLineY
+                0x0000c8d0                DisplayEraseLine
+                0x0000c104                DisplayXorPixel
+                0x0000dfa8                doUpdateScreen
+                0x0000b698                dLcdReadPixel
+                0x0000dbf4                LcdGetFrameBuffer
+                0x0000b2f4                dLcdGetIconWidth
+                0x0000c4c8                CmdResolveDrawingMode
+                0x0000c584                LcdResetCursor
+                0x0000c7f8                Ev3Println
+                0x0000e0c0                LcdCloseDevices
+                0x0000c574                LcdGetCursorY
+                0x0000e114                LcdExit
+                0x0000b354                frameBufferToLcd
+                0x0000d620                CircleOutEx
+                0x0000bb88                dLcdDrawIcon
+                0x0000cf54                CmdSetPixel
+                0x0000cfa4                PointOutEx
+ .text          0x0000e244      0x724 C:/ev3/API\libev3api.a(ev3_timer.o)
+                0x0000e520                TimerGetMS
+                0x0000e5b8                ClearTimer
+                0x0000e244                _timerSigHandler
+                0x0000e748                ClearTimerUS
+                0x0000e938                TimerReady
+                0x0000e774                TimerUS
+                0x0000e44c                SetTimerCallback
+                0x0000e7a4                _timerCallbackInit
+                0x0000e6c4                TimerWait
+                0x0000e668                ClearTimerMS
+                0x0000e708                SetTimerUS
+                0x0000e578                SetTimer
+                0x0000e5e4                FastTimer
+                0x0000e6d8                TimerGetUS
+                0x0000e614                Timer
+                0x0000e694                TimerMS
+                0x0000e8a4                TimerInit
+                0x0000e628                SetTimerMS
+                0x0000e55c                TimerGetCS
+ .text          0x0000e968       0x48 C:/ev3/API\libev3api.a(ev3_command.o)
+                0x0000e968                Wait
+ .text          0x0000e9b0      0xefc C:/ev3/API\libev3api.a(ev3_sound.o)
+                0x0000ef10                PlayTonesEx
+                0x0000ecc8                SoundCloseDevices
+                0x0000e9e0                SoundTest
+                0x0000ee3c                ClearSound
+                0x0000f438                _playRSOFile
+                0x0000ebd4                _readInt
+                0x0000eb70                _readShort
+                0x0000ee6c                SoundExit
+                0x0000ec8c                SoundReady
+                0x0000ee8c                PlayToneEx
+                0x0000eda8                WriteToSoundDevice
+                0x0000ed10                SoundInit
+                0x0000ea10                _soundInitAdPcm
+                0x0000f2d8                _playSoundSamplesFromStream
+                0x0000ea34                _soundGetAdPcmValue
+                0x0000f7f8                PlayFileEx
+                0x0000f5cc                _playWAVFile
+                0x0000e9b8                SoundInitialized
+                0x0000e9b0                SoundOpen
+                0x0000ee5c                SoundClose
+                0x0000eb40                SoundState
+                0x0000f0ec                _playRMDFile
+                0x0000edf0                StopSound
+                0x0000ee40                MuteSound
+                0x0000ef7c                PlaySound
+                0x0000eb5c                UnmuteSound
+ .text          0x0000f8ac      0x114 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+                0x0000f8ac                __udivsi3
+                0x0000f8ac                __aeabi_uidiv
+                0x0000f9a0                __aeabi_uidivmod
+ .text          0x0000f9c0      0x148 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+                0x0000f9c0                __divsi3
+                0x0000fae8                __aeabi_idivmod
+                0x0000f9c0                __aeabi_idiv
+ .text          0x0000fb08       0x1c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_lshrdi3.o)
+                0x0000fb08                __aeabi_llsr
+                0x0000fb08                __lshrdi3
+ .text          0x0000fb24      0x41c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_addsubdf3.o)
+                0x0000fecc                __floatundidf
+                0x0000fe64                __floatsidf
+                0x0000fe40                __aeabi_ui2d
+                0x0000fe64                __aeabi_i2d
+                0x0000fe40                __floatunsidf
+                0x0000fb2c                __subdf3
+                0x0000fee0                __floatdidf
+                0x0000fb30                __adddf3
+                0x0000fee0                __aeabi_l2d
+                0x0000fe8c                __aeabi_f2d
+                0x0000fecc                __aeabi_ul2d
+                0x0000fb24                __aeabi_drsub
+                0x0000fe8c                __extendsfdf2
+                0x0000fb30                __aeabi_dadd
+                0x0000fb2c                __aeabi_dsub
+ .text          0x0000ff40      0x49c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivdf3.o)
+                0x0000ff40                __muldf3
+                0x000101d0                __divdf3
+                0x0000ff40                __aeabi_dmul
+                0x000101d0                __aeabi_ddiv
+ .text          0x000103dc      0x144 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_cmpdf2.o)
+                0x000103dc                __gtdf2
+                0x000103e4                __ltdf2
+                0x00010490                __aeabi_cdcmple
+                0x000103dc                __gedf2
+                0x00010508                __aeabi_dcmpgt
+                0x000103e4                __ledf2
+                0x00010490                __aeabi_cdcmpeq
+                0x000104a8                __aeabi_dcmpeq
+                0x000104d8                __aeabi_dcmple
+                0x000104f0                __aeabi_dcmpge
+                0x000103ec                __cmpdf2
+                0x000104c0                __aeabi_dcmplt
+                0x000103ec                __nedf2
+                0x00010474                __aeabi_cdrcmple
+                0x000103ec                __eqdf2
+ .text          0x00010520       0x5c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_fixdfsi.o)
+                0x00010520                __fixdfsi
+                0x00010520                __aeabi_d2iz
+ .text          0x0001057c      0x2f8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivsf3.o)
+                0x00010714                __aeabi_fdiv
+                0x00010714                __divsf3
+                0x0001057c                __aeabi_fmul
+                0x0001057c                __mulsf3
+ .text          0x00010874       0x3c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o)
+                0x00010874                __aeabi_uldivmod
+ .text          0x000108b0       0x14 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_dvmd_lnx.o)
+                0x000108b0                __aeabi_idiv0
+                0x000108b0                __aeabi_ldiv0
+ .text          0x000108c4       0x80 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+                0x00010904                __gnu_ldivmod_helper
+                0x000108c4                __gnu_uldivmod_helper
+ .text          0x00010944      0x5a4 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+                0x00010944                __divdi3
+ .text          0x00010ee8      0x52c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+                0x00010ee8                __udivdi3
+ .text          0x00011414       0x78 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+                0x00011414                __libc_csu_fini
+                0x00011418                __libc_csu_init
+ .text          0x0001148c       0x1c c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+                0x0001148c                __stat
+                0x0001148c                stat
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini           0x000114a8        0xc
+ *(.fini)
+ .fini          0x000114a8        0x4 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+                0x000114a8                _fini
+ .fini          0x000114ac        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+                0x000114b4                PROVIDE (__etext, .)
+                0x000114b4                PROVIDE (_etext, .)
+                0x000114b4                PROVIDE (etext, .)
+
+.rodata         0x000114b4      0x469
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000114b4       0x38 ./src/Sensors/sensors.o
+ .rodata        0x000114ec       0x28 ./src/main.o
+ .rodata.str1.1
+                0x00011514        0xf C:/ev3/API\libev3api.a(ev3_button.o)
+                                 0x10 (size before relaxing)
+ .rodata.str1.1
+                0x00011523       0x22 C:/ev3/API\libev3api.a(ev3_output.o)
+ .rodata.str1.1
+                0x00011545       0x2b C:/ev3/API\libev3api.a(ev3_sensor.o)
+ .rodata        0x00011570      0x100 C:/ev3/API\libev3api.a(ev3_lcd.o)
+ .rodata.str1.1
+                0x00011670       0xc1 C:/ev3/API\libev3api.a(ev3_lcd.o)
+ *fill*         0x00011731        0x1 00
+ .rodata        0x00011732       0xd2 C:/ev3/API\libev3api.a(ev3_sound.o)
+                0x00011732                StepSizeTable
+                0x000117e4                IndexTable
+ .rodata.str1.1
+                0x00011804       0x19 C:/ev3/API\libev3api.a(ev3_sound.o)
+ .rodata        0x0001181d      0x100 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+                0x0001181d                __clz_tab
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00011920      0x180
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.setUpSensors
+                0x00011920        0xc ./src/Sensors/sensors.o
+ .ARM.extab.text.readColorSensor
+                0x0001192c        0xc ./src/Sensors/sensors.o
+ .ARM.extab.text.readUltraSonicSensor
+                0x00011938        0xc ./src/Sensors/sensors.o
+ .ARM.extab.text.goalfinding
+                0x00011944        0xc ./src/Control/goalfinding.o
+ .ARM.extab.text.turnVehicledeg
+                0x00011950        0xc ./src/Control/lego_control.o
+ .ARM.extab.text.goForward
+                0x0001195c        0xc ./src/Control/lego_control.o
+ .ARM.extab.text.wander
+                0x00011968        0xc ./src/Control/wander.o
+ .ARM.extab.text.main
+                0x00011974        0xc ./src/main.o
+ .ARM.extab     0x00011980       0x90 C:/ev3/API\libev3api.a(ev3_output.o)
+ .ARM.extab     0x00011a10       0x78 C:/ev3/API\libev3api.a(ev3_lcd.o)
+ .ARM.extab     0x00011a88       0x18 C:/ev3/API\libev3api.a(ev3_sound.o)
+                0x00011aa0                __exidx_start = .
+
+.ARM.exidx      0x00011aa0      0x5d0
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00011ab0        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x00011ab0        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .ARM.exidx     0x00011ab8       0x10 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .ARM.exidx.text.setUpSensors
+                0x00011ac8        0x8 ./src/Sensors/sensors.o
+ .ARM.exidx.text.readColorSensor
+                0x00011ad0        0x8 ./src/Sensors/sensors.o
+ .ARM.exidx.text.readUltraSonicSensor
+                0x00011ad8        0x8 ./src/Sensors/sensors.o
+ .ARM.exidx.text.goalfinding
+                0x00011ae0        0x8 ./src/Control/goalfinding.o
+ .ARM.exidx.text.turnVehicledeg
+                0x00011ae8        0x8 ./src/Control/lego_control.o
+ .ARM.exidx.text.goForward
+                0x00011af0        0x8 ./src/Control/lego_control.o
+ .ARM.exidx.text.wander
+                0x00011af8        0x8 ./src/Control/wander.o
+ .ARM.exidx.text.main
+                0x00011b00        0x8 ./src/main.o
+ .ARM.exidx     0x00011b08       0x70 C:/ev3/API\libev3api.a(ev3_button.o)
+                                 0xe0 (size before relaxing)
+ .ARM.exidx     0x00011b78      0x178 C:/ev3/API\libev3api.a(ev3_output.o)
+                                0x210 (size before relaxing)
+ .ARM.exidx     0x00011cf0       0x10 C:/ev3/API\libev3api.a(ev3.o)
+                                 0x18 (size before relaxing)
+ .ARM.exidx     0x00011d00       0x30 C:/ev3/API\libev3api.a(ev3_sensor.o)
+                                 0x68 (size before relaxing)
+ .ARM.exidx     0x00011d30      0x1d8 C:/ev3/API\libev3api.a(ev3_lcd.o)
+                                0x268 (size before relaxing)
+ .ARM.exidx     0x00011f08       0x70 C:/ev3/API\libev3api.a(ev3_timer.o)
+                                 0x98 (size before relaxing)
+ .ARM.exidx     0x00011f78        0x8 C:/ev3/API\libev3api.a(ev3_command.o)
+ .ARM.exidx     0x00011f80       0xb0 C:/ev3/API\libev3api.a(ev3_sound.o)
+                                 0xd0 (size before relaxing)
+ .ARM.exidx     0x00012030        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+                                 0x10 (size before relaxing)
+ .ARM.exidx     0x00012038        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00012040        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x00012040       0x10 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.exidx     0x00012050       0x10 c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+                                  0x8 (size before relaxing)
+ .ARM.exidx.init
+                0x00011aa0       0x10 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.fini
+                0x00012060       0x10 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+                                  0x8 (size before relaxing)
+                0x00012070                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00012070        0x4
+ *(.eh_frame)
+ .eh_frame      0x00012070        0x4 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00012074                . = (ALIGN (0x8000) - ((0x8000 - .) & 0x7fff))
+                0x0001a074                . = (0x8000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0001a074        0x0
+                0x0001a074                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0001a074                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0001a074        0x8
+                0x0001a074                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0001a074        0x4 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .init_array    0x0001a078        0x4 C:/ev3/API\libev3api.a(ev3.o)
+                0x0001a07c                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0001a07c        0x8
+                0x0001a07c                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x0001a07c        0x4 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .fini_array    0x0001a080        0x4 C:/ev3/API\libev3api.a(ev3.o)
+ *(SORT(.fini_array.*))
+                0x0001a084                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0001a084        0x4
+ *(.jcr)
+ .jcr           0x0001a084        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .jcr           0x0001a084        0x4 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0001a088       0xf8
+ *(.dynamic)
+ .dynamic       0x0001a088       0xf8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+                0x0001a088                _DYNAMIC
+                0x0001a180                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.got            0x0001a180       0xb0
+ *(.got.plt)
+ .got.plt       0x0001a180       0xa8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+                0x0001a180                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x0001a228        0x8 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+
+.data           0x0001a230     0x2534
+                0x0001a230                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0001a230     0x2530 C:/ev3/API\libev3api.a(ev3_lcd.o)
+                0x0001a39c                PixelTab
+                0x0001a29c                UnPixelTab
+                0x0001a260                IconInfo
+                0x0001a230                FontInfo
+                0x0001a3a4                Masks
+ .data          0x0001c760        0x4 C:/ev3/API\libev3api.a(ev3_timer.o)
+
+.data1
+ *(.data1)
+                0x0001c764                _edata = .
+                0x0001c764                PROVIDE (edata, .)
+                0x0001c764                __bss_start = .
+                0x0001c764                __bss_start__ = .
+
+.bss            0x0001c768     0x2d40
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0001c768        0x1 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .bss           0x0001c769        0x1 C:/ev3/API\libev3api.a(ev3.o)
+ *fill*         0x0001c76a        0x2 00
+ .bss           0x0001c76c       0x24 C:/ev3/API\libev3api.a(ev3_sensor.o)
+                0x0001c76c                g_uartFile
+                0x0001c77c                g_iicSensors
+                0x0001c778                g_uartSensors
+                0x0001c780                g_analogSensors
+                0x0001c774                g_analogFile
+                0x0001c770                g_iicFile
+ .bss           0x0001c790        0xc C:/ev3/API\libev3api.a(ev3_lcd.o)
+ *fill*         0x0001c79c        0x4 00
+ .bss           0x0001c7a0       0xe0 C:/ev3/API\libev3api.a(ev3_timer.o)
+ *(COMMON)
+ COMMON         0x0001c880       0x20 C:/ev3/API\libev3api.a(ev3_button.o)
+                0x0001c880                HwVers
+                0x0001c888                ButtonLedInstance
+ COMMON         0x0001c8a0       0x48 C:/ev3/API\libev3api.a(ev3_output.o)
+                0x0001c8a0                OutputInstance
+ COMMON         0x0001c8e8       0x20 C:/ev3/API\libev3api.a(ev3_sensor.o)
+                0x0001c8e8                ir_sensor_channel
+                0x0001c8f8                sensor_setup_NAME
+ COMMON         0x0001c908     0x2998 C:/ev3/API\libev3api.a(ev3_lcd.o)
+                0x0001c908                LCDInstance
+                0x0001d4a0                hwBuffer
+ COMMON         0x0001f2a0      0x208 C:/ev3/API\libev3api.a(ev3_sound.o)
+                0x0001f2a0                SoundInstance
+                0x0001f4a8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0001f4a8                _bss_end__ = .
+                0x0001f4a8                __bss_end__ = .
+                0x0001f4a8                . = ALIGN (0x4)
+                0x0001f4a8                . = ALIGN (0x4)
+                0x0001f4a8                __end__ = .
+                0x0001f4a8                _end = .
+                0x0001f4a8                PROVIDE (end, .)
+                0x0001f4a8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x26 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o
+ .ARM.attributes
+                0x00000026       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o
+ .ARM.attributes
+                0x00000050       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o
+ .ARM.attributes
+                0x0000007a       0x2c ./src/Sensors/sensors.o
+ .ARM.attributes
+                0x000000a6       0x2c ./src/Planning/parameters.o
+ .ARM.attributes
+                0x000000d2       0x2c ./src/Planning/planning.o
+ .ARM.attributes
+                0x000000fe       0x2c ./src/Control/control_setup.o
+ .ARM.attributes
+                0x0000012a       0x2c ./src/Control/goalfinding.o
+ .ARM.attributes
+                0x00000156       0x2c ./src/Control/lego_control.o
+ .ARM.attributes
+                0x00000182       0x2c ./src/Control/wander.o
+ .ARM.attributes
+                0x000001ae       0x2c ./src/main.o
+ .ARM.attributes
+                0x000001da       0x31 C:/ev3/API\libev3api.a(ev3_button.o)
+ .ARM.attributes
+                0x0000020b       0x31 C:/ev3/API\libev3api.a(ev3_output.o)
+ .ARM.attributes
+                0x0000023c       0x31 C:/ev3/API\libev3api.a(ev3.o)
+ .ARM.attributes
+                0x0000026d       0x31 C:/ev3/API\libev3api.a(ev3_sensor.o)
+ .ARM.attributes
+                0x0000029e       0x31 C:/ev3/API\libev3api.a(ev3_lcd.o)
+ .ARM.attributes
+                0x000002cf       0x31 C:/ev3/API\libev3api.a(ev3_timer.o)
+ .ARM.attributes
+                0x00000300       0x31 C:/ev3/API\libev3api.a(ev3_command.o)
+ .ARM.attributes
+                0x00000331       0x31 C:/ev3/API\libev3api.a(ev3_sound.o)
+ .ARM.attributes
+                0x00000362       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000037c       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000396       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x000003b0       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000003ca       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000003e4       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000003fe       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000418       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000432       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000044c       0x1a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000466       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000490       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x000004ba       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x000004e4       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t\libgcc.a(_clz.o)
+ .ARM.attributes
+                0x0000050e       0x2a c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x00000538       0x2a c:\program files (x86)\codesourcery\sourcery g++ lite\bin\../arm-none-linux-gnueabi/libc/armv4t/usr/lib/libc_nonshared.a(stat.oS)
+ .ARM.attributes
+                0x00000562       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o
+ .ARM.attributes
+                0x0000058c       0x2a c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+
+.comment        0x00000000      0x2b0
+ *(.comment)
+ .comment       0x00000000       0x2b ./src/Sensors/sensors.o
+ .comment       0x0000002b       0x2b ./src/Planning/parameters.o
+ .comment       0x00000056       0x2b ./src/Planning/planning.o
+ .comment       0x00000081       0x2b ./src/Control/control_setup.o
+ .comment       0x000000ac       0x2b ./src/Control/goalfinding.o
+ .comment       0x000000d7       0x2b ./src/Control/lego_control.o
+ .comment       0x00000102       0x2b ./src/Control/wander.o
+ .comment       0x0000012d       0x2b ./src/main.o
+ .comment       0x00000158       0x2b C:/ev3/API\libev3api.a(ev3_button.o)
+ .comment       0x00000183       0x2b C:/ev3/API\libev3api.a(ev3_output.o)
+ .comment       0x000001ae       0x2b C:/ev3/API\libev3api.a(ev3.o)
+ .comment       0x000001d9       0x2b C:/ev3/API\libev3api.a(ev3_sensor.o)
+ .comment       0x00000204       0x2b C:/ev3/API\libev3api.a(ev3_lcd.o)
+ .comment       0x0000022f       0x2b C:/ev3/API\libev3api.a(ev3_timer.o)
+ .comment       0x0000025a       0x2b C:/ev3/API\libev3api.a(ev3_command.o)
+ .comment       0x00000285       0x2b C:/ev3/API\libev3api.a(ev3_sound.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(robotics_planner.elf elf32-littlearm)
