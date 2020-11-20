@@ -12,9 +12,9 @@ void wander () {
 	int color;
 	int goalstatus = goalfinding();
 	color = readColorSensor();
-	while ((color != 0 && color <= 3) && goalstatus == 0) {
-		goForward(.025);
-		turnVehicledeg(10, 0);
+	while (color != 2) {
+		goForward(.05);
+		turnVehicledeg(7, 1);
 	    goalstatus = goalfinding();
 		color = readColorSensor();
 

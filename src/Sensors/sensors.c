@@ -23,6 +23,6 @@ int readColorSensor(){
 
 int readUltraSonicSensor(){
 	int read = ReadSensor(IN_3);
-		TermPrintf("Sonar value: %i\n", read);
+		//TermPrintf("Sonar value: %i\n", read);
 		return read;
 }

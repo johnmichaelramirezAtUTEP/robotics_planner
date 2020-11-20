@@ -30,7 +30,6 @@ int main(void){
 //		}
 //		i++;
 //	}
-	setUpControl();
 	setUpSensors();
 	TermPrintf("Color value: %i\n", readColorSensor());
 	ButtonWaitForPress(BUTTON_ID_ENTER);
@@ -39,8 +38,12 @@ int main(void){
 	int goal = goalfinding();
 	while (!goal) {
 		wander();
-		//wallfollow();
-		goalfinding();
+		wallfollow();
+		goal = goalfinding();
+		if(ButtonIsDown(BTNLEFT)) {
+					exit(0);
+				}
+
 	}
 
 	return 0;
