@@ -9,7 +9,6 @@ RM := cs-rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include src/Sensors/subdir.mk
--include src/Planning/subdir.mk
 -include src/Control/subdir.mk
 -include src/subdir.mk
 -include subdir.mk

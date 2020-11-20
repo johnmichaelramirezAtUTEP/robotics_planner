@@ -19,9 +19,9 @@ void wander () {
 		color = readColorSensor();
 
 
-		/*if(ButtonIsDown(BTNLEFT)) {
+		if(ButtonIsDown(BTNLEFT)) {
 			exit(0);
-		}*/
+		}
 	}
 
 }
