@@ -6,8 +6,8 @@
 int goalfinding() {
    int distance = readUltraSonicSensor();
 
-	if (distance <= 10 && distance >= 1) {
-		goForward (distance+2);
+	if (distance <= 30 && distance >= 1) {
+		goForward (distance+5);
 		return 1;
 	} else {
 		return 0;

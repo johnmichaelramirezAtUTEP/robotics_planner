@@ -17,12 +17,12 @@ void setUpSensors(){
 
 int readColorSensor(){
 	int read = ReadSensor(IN_2);
-	TermPrintf("Color value: %i\n", read);
+	//TermPrintf("Color value: %i\n", read);
 	return read;
 }
 
 int readUltraSonicSensor(){
 	int read = ReadSensor(IN_3);
-		//TermPrintf("Sonar value: %i\n", read);
+		TermPrintf("Sonar value: %i\n", read);
 		return read;
 }
