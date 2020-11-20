@@ -7,5 +7,8 @@ int goalfinding() {
 
 	if (distance <= 10 && distance >= 1) {
 		goForward (distance+2);
+		return 1;
+	} else {
+		return 0;
 	}
 }
