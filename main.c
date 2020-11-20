@@ -1,6 +1,8 @@
 #include "Control/lego_control.h"
-#include "Planning/planning.h"
+#include "Planning/planning.h"w
 #include "Sensors/sensors.h"
+#include "Planning/goalfinding.h"
+#include "Planning/wander.h"
 #include <ev3.h>
 
 int main(void){
@@ -34,6 +36,12 @@ int main(void){
 	ButtonWaitForPress(BUTTON_ID_ENTER);
 	TermPrintf("Sonar value: %i\n", readUltraSonicSensor());
 	ButtonWaitForPress(BUTTON_ID_ENTER);
+	int goal = goalfinding();
+	while (!goal) {
+		wander();
+		wallfollow();
+		goalfinding();
+	}
 
 	return 0;
 }
