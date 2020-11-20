@@ -8,7 +8,7 @@
 #define TICKS_PER_METER 2050
 #define MILLISECONDS_PER_90_TURN 1550
 
-void wander () {
+int wander () {
 	int color;
 	int goalstatus = goalfinding();
 	color = readColorSensor();
@@ -22,6 +22,13 @@ void wander () {
 		if(ButtonIsDown(BTNLEFT)) {
 			exit(0);
 		}
+
+	}
+
+	if (goalstatus) {
+		return 1;
+	} else {
+		return 0;
 	}
 
 }

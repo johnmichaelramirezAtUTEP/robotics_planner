@@ -37,9 +37,15 @@ int main(void){
 	ButtonWaitForPress(BUTTON_ID_ENTER);
 	int goal = goalfinding();
 	while (!goal) {
-		wander();
+		goal = wander();
+
+		if(goal) {
+			exit(0);
+		}
+
 		wallfollow();
-		goal = goalfinding();
+
+
 		if(ButtonIsDown(BTNLEFT)) {
 					exit(0);
 				}
