@@ -9,20 +9,26 @@
 #define MILLISECONDS_PER_90_TURN 1550
 
 int wander () {
-	int color;
+	int color = 0, count = 0;
 	int goalstatus = goalfinding();
 	color = readColorSensor();
 	while (color != 2 && !goalstatus) {
 		goForward(.05);
 		turnVehicledeg(7, 1);
-	    goalstatus = goalfinding();
+
 		color = readColorSensor();
 
+		goalstatus = goalfinding();
 
 		if(ButtonIsDown(BTNLEFT)) {
 			exit(0);
 		}
 
+		if(count == 10) {
+			goalstatus = goalfindingspin();
+			count = 0;
+		}
+		count++;
 	}
 
 	if (goalstatus) {

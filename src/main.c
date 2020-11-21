@@ -43,7 +43,7 @@ int main(void){
 			exit(0);
 		}
 
-		wallfollow();
+		//wallfollow();
 
 
 		if(ButtonIsDown(BTNLEFT)) {
