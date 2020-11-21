@@ -31,6 +31,7 @@ int main(void){
 //		i++;
 //	}
 	setUpSensors();
+	SoundInit();
 	TermPrintf("Color value: %i\n", readColorSensor());
 	ButtonWaitForPress(BUTTON_ID_ENTER);
 	TermPrintf("Sonar value: %i\n", readUltraSonicSensor());

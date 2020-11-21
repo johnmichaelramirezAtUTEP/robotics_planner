@@ -9,12 +9,14 @@ int goalfinding() {
    int distance = readUltraSonicSensor();
 
 	if (distance <= 30 && distance >= 1) {
+		PlaySound(SOUND_UP);
 		while (color != 2 && distTraveled < distance) {
 			goForward (.01);
 			distTraveled += .01;
 			color = readColorSensor();
 			if(color == 2) {
-				return 0;
+				PlaySound(SOUND_DOWN);
+				return(0);
 			}
 		}
 		return 1;
@@ -33,11 +35,13 @@ int goalfindingspin() {
    for (i = 0; i <= 36; i++) {
 	turnVehicledeg(10, 1);
 	if (distance <= 30 && distance >= 1) {
+		PlaySound(SOUND_UP);
 		while (color != 2 && distTraveled < distance) {
 			goForward (.01);
 			distTraveled += .01;
 			color = readColorSensor();
 			if(color == 2) {
+				PlaySound(SOUND_DOWN);
 				return 0;
 			}
 		}
