@@ -1,58 +1,78 @@
 #include "Control/lego_control.h"
+#include "Planning/planning.h"
 #include "Sensors/sensors.h"
 #include "Control/goalfinding.h"
 #include "Control/wander.h"
+#include <ev3_sound.h>
 #include <ev3.h>
 
+void wallfollow(void);
+
 int main(void){
-//	setupVariables();
-//	initBoard();
-//	addObstacles();
-//	Node *backtrace = bfs();
-//	printTrace(backtrace);
-//	printBoard();
-//	Instruction * instr = createInstructions();
-//
-//	setUpControl();
-//
-//	int i = 0;
-//	while(instr[i].inst == 'f' || instr[i].inst == 'r'){
-//		if(instr[i].inst == 'r'){
-//			if(instr[i].value > 0){ //turn left
-//				turnVehicleLeft();
-//			}
-//			else {//turn right
-//				turnVehicleRight();
-//			}
-//		}
-//		else if(instr[i].inst == 'f'){
-//			goForward(instr[i].value);
-//		}
-//		i++;
-//	}
 	setUpSensors();
-	SoundInit();
-	TermPrintf("Color value: %i\n", readColorSensor());
-	ButtonWaitForPress(BUTTON_ID_ENTER);
-	TermPrintf("Sonar value: %i\n", readUltraSonicSensor());
-	ButtonWaitForPress(BUTTON_ID_ENTER);
 	int goal = goalfinding();
 	while (!goal) {
+		TermPrintf("Wandering Start\n");
 		goal = wander();
-
 		if(goal) {
 			exit(0);
 		}
-
-		//wallfollow();
-
-
-		if(ButtonIsDown(BTNLEFT)) {
-					exit(0);
-				}
-
+		TermPrintf("Wandering End\n");
+		TermPrintf("Wall Follow Start\n");
+		wallfollow();
+		TermPrintf("Wall Follow End\n");
+		turnVehicleRightXDegrees(135.0);
+		goal = goalfinding();
+		if(ButtonIsDown(BTNLEFT)){
+			exit(0);
+		}
 	}
 
 	return 0;
+}
+
+void wallfollow(){
+	int wallFollowing = 1;
+	int distanceTraveled = 0;
+	int missed = 0;
+	turnVehicleRightXDegrees(30.0);
+	while(wallFollowing){
+		setRelativeEncoderValues();
+		goForwardNonBlocking();
+		while((getRelativeEncoderTicksLeft() + getRelativeEncoderTicksRight())/2 < 256){
+			if(goalfinding()){
+				exit(0);
+			}
+			if(countColor() == 15){
+				stopVehicle();
+				goReverseNonBlocking();
+				Wait(500);
+				stopVehicle();
+				turnVehicleRightXDegrees(20.0);
+				goForwardNonBlocking();
+			}
+		}
+
+		distanceTraveled += 1;
+		stopVehicle();
+		turnVehicleLeftXDegrees(90.0);
+		if(countColor() == 15){
+			turnVehicleRightXDegrees(90.0);
+			missed = 0;
+		}
+		else {
+			missed++;
+		}
+
+		if(distanceTraveled % 8 == 0){
+			if(goalfindingspin()){
+				exit(0);
+			}
+		}
+		if(distanceTraveled >= 32 || missed == 4){
+			wallFollowing = 0;
+		}
+	}
+	return;
 }
 
